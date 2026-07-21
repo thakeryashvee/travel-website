@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Rout</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- custom css file link-->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    
+
+<!-- header section starts -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">HOME</a>
+        <a href="#book">BOOK</a>
+        <a href="#packages">PACKAGES</a>
+        <a href="#services">SERVICES</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#review">REVIEW</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends-->
+
+
+<!--login form container -->
+
+<div class="login-form-container">
+
+ <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+       <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <p></p>
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+        <div class="video-container">
+            <video id="video-slider" src="images/vid-1.mp4" loop autoplay muted playsinline></video>
+        </div>
+
+     <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+    <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <!-- Book section starts -->
+
+    <div class="row">
+
+<div class="row">
+        <!-- આ ભાગ ડાબી બાજુની ઈમેજ માટે છે -->
+        <div class="image">
+            <img src="images/A001.JPG" alt="Book Image">
+        </div>
+
+        <!-- આ ભાગ જમણી બાજુના ફોર્મ માટે છે -->
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="search places">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+
+</section>
+
+ <!-- Book section ends -->
+
+ <!--/*=========================================================================== -->
+
+<!-- packages section starts -->
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <!-- Package 1 -->
+        <div class="box">
+            <img src="images/p-1.jpg" alt="grees">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> grees </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹5000 <span>₹7000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="box">
+            <img src="images/p-2.jpg" alt="hawaii">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹8000 <span>₹12000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="box">
+            <img src="images/p-3.jpg" alt="sydeny">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sydeny </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹15000 <span>₹18000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <!-- Package 4 -->
+        <div class="box">
+            <img src="images/p-4.jpg" alt="pairs">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> pairs </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹12000 <span>₹15000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <!-- Package 5 -->
+        <div class="box">
+            <img src="images/p-5.jpg" alt="tokyo">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹9000 <span>₹13000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <!-- Package 6 -->
+        <div class="box">
+            <img src="images/p-6.jpg" alt="Egypt">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹18000 <span>₹22000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- packages section ends -->
+
+ <!--/*=========================================================================== -->
+
+<!-- services section starts -->
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Enjoy comfortable and budget-friendly stays at handpicked hotels without compromising on quality or convenience.</p>        
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+        <p>Savor authentic local cuisines and refreshing beverages carefully curated to enhance your culinary travel experience.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Travel with peace of mind with our comprehensive safety guidelines and 24/7 on-ground support team.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Explore breathtaking destinations across the globe with our expertly crafted international holiday packages.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Reach your dream destinations quickly and hassle-free with our optimized flight and transport bookings.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Experience thrilling outdoor activities and unforgettable adventures designed for the ultimate adrenaline rush.</p>
+        </div>
+
+    </div>
+
+</section>
+<!-- services section ends -->
+
+ <!--/*=========================================================================== -->
+ <!-- gallery section starts -->
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <!-- Photo 1 -->
+        <div class="box">
+            <img src="images/g-1.jpg" alt="Gallery Image 1">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="box">
+            <img src="images/g-2.jpg" alt="Gallery Image 2">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="box">
+            <img src="images/g-3.jpg" alt="Gallery Image 3">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="box">
+            <img src="images/g-4.jpg" alt="Gallery Image 4">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 5 -->
+        <div class="box">
+            <img src="images/g-5.jpg" alt="Gallery Image 5">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 6 -->
+        <div class="box">
+            <img src="images/g-6.jpg" alt="Gallery Image 6">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 7 -->
+        <div class="box">
+            <img src="images/g-7.jpg" alt="Gallery Image 7">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 8 -->
+        <div class="box">
+            <img src="images/g-8.jpg" alt="Gallery Image 8">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <!-- Photo 9 -->
+        <div class="box">
+            <img src="images/g-9.jpg" alt="Gallery Image 9">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- gallery section ends -->
+
+
+ <!--/*=========================================================================== -->
+<!-- review section starts -->
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="box-container">
+
+        <!-- Review 1 -->
+        <div class="box">
+            <img src="images/pic-1.png" alt="User 1">
+            <h3>Shailesh Jani</h3>
+            <p>"My experience was absolutely amazing! The hotel booking and tour planning were absolutely perfect. I would love to use your services in the future as well. Thank you so much for providing such great facilities!"</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="box">
+            <img src="images/pic-2.png" alt="User 2">
+            <h3>Manoj Salla</h3>
+            <p>"We went to Kerala with family and the whole trip was very memorable. The guide was very polite and did not let us face any kind of trouble. Really very nice and safe service!"</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="box">
+            <img src="images/pic-3.png" alt="User 3">
+            <h3>Manoj Thaker</h3>
+            <p>"Best tour package on a budget! Everything was very professional from start to finish. Especially the food and accommodation arrangements were very good. I definitely recommend this agency to everyone."</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- review section ends -->
+
+ <!--/*=========================================================================== -->
+ <!-- contact section starts -->
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <!-- ડાબી બાજુની ઈમેજ -->
+        <div class="image">
+        <img src="images/contact-img.png" alt="Contact Us">
+    </div>
+
+        <!-- જમણી બાજુનું ફોર્મ -->
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="place">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+
+</section>
+<!-- contact section ends -->
+
+<!-- brand section starts (કંપનીના લોગો) -->
+<section class="brand-container">
+    <!-- અહીં તમારા લોગોના સાચા નામ આપો -->
+<img src="images/logo1.png" alt="Brand 1">
+    <img src="images/logo2.png" alt="Brand 2">
+    <img src="images/logo3.png" alt="Brand 3">
+    <img src="images/logo4.png" alt="Brand 4">
+    <img src="images/logo5.png" alt="Brand 5">
+    <img src="images/logo6.png" alt="Brand 6">
+    <img src="images/logo7.png" alt="Brand 7">
+    <img src="images/logo8.png" alt="Brand 8">
+    <img src="images/logo9.png" alt="Brand 9">
+</section>
+<!-- brand section ends -->
+
+<!-- footer section starts (About Us અને લિંક્સ) -->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+          
+
+    <p>
+        At Happy Journey, we help you discover the world's most beautiful destinations.
+        From family vacations and honeymoon packages to adventure trips and weekend
+        getaways, we provide safe, affordable, and memorable travel experiences.
+    </p>
+        </div>
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> || Thaker Yashvee | Shiyal Tinku | Sankhat Janki || </span> all rights reserved! </h1>
+
+</section>
+<!-- footer section ends -->
+ 
+
+ <!--/*=========================================================================== -->
+
+ <!-- custom js file link ની જગ્યાએ હવે સીધો જ કોડ મૂકીશું -->
+<script>
+    let searchBtn = document.querySelector('#search-btn');
+    let searchBar = document.querySelector('.search-bar-container');
+    let formBtn = document.querySelector('#login-btn');
+    let loginform = document.querySelector('.login-form-container');
+    let formclose = document.querySelector('#form-close');
+    let menu = document.querySelector('#menu-bar');
+    let navbar = document.querySelector('.navbar');
+
+    window.onscroll = () => {
+        searchBtn.classList.remove('fa-times');
+        searchBar.classList.remove('active');
+        menu.classList.remove('fa-times');
+        navbar.classList.remove('active');
+        loginform.classList.remove('active');
+    };
+
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+    });
+
+    searchBtn.addEventListener('click', () => {
+        searchBtn.classList.toggle('fa-times');
+        searchBar.classList.toggle('active');
+    });
+
+    formBtn.addEventListener('click', () => {
+        loginform.classList.add('active');
+    });
+
+    formclose.addEventListener('click', () => {
+        loginform.classList.remove('active');
+    });
+
+    /* --- Video Slider નો સુધારેલો કોડ --- */
+    const video = document.querySelector("#video-slider");
+    let videoBtn = document.querySelectorAll('.vid-btn');
+
+    const videos = [
+        "images/vid-1.mp4",
+        "images/vid-2.mp4",
+        "images/vid-3.mp4",
+        "images/vid-4.mp4",
+        "images/vid-5.mp4"
+    ];
+
+    let currentVideo = 0;
+
+    // જ્યારે વિડીયો પૂરો થાય ત્યારે ઓટોમેટિક બીજો વિડીયો ચાલુ કરવા 
+    video.addEventListener("ended", () => {
+        currentVideo++;
+        if (currentVideo >= videos.length) {
+            currentVideo = 0;
+        }
+        video.src = videos[currentVideo];
+        video.play();
+        
+        // નવો વિડીયો ચાલુ થાય એટલે નીચેનું ડોટ પણ જાતે જ બદલાઈ જાય
+        document.querySelector('.controls .active').classList.remove('active');
+        videoBtn[currentVideo].classList.add('active');
+    });
+
+    // જ્યારે કોઈ ડોટ પર ક્લિક કરે ત્યારે તે વિડીયો પ્લે કરવા
+    videoBtn.forEach((btn, index) => {
+        btn.addEventListener('click', () => {
+            document.querySelector('.controls .active').classList.remove('active');
+            btn.classList.add('active');
+            let src = btn.getAttribute('data-src');
+            video.src = src;
+            video.play();
+            currentVideo = index; // ઓટો-પ્લેને ખબર રહે કે કયો વિડીયો ચાલી રહ્યો છે
+        });
+    });
+</script>
+
